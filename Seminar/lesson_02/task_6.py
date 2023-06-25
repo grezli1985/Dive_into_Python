@@ -15,7 +15,8 @@ while True:
     print("1. Пополнить счет.\n"
           "2. Снять деньги со счета.\n"
           "3. Вывести баланс.\n"
-          "4. Выход.\n")
+          "4. Выход.\n"
+          "Выбери действия: ")
     user = input()
     if user == '1':
         break
@@ -24,6 +25,19 @@ while True:
     elif user == '3':
         break
     elif user == '4':
+        print('Хорошего дня!')
         break
     else:
         print("Недопустимое значение. Попробуйте снова.\n")
+
+
+def Top_up_account():
+    pass
+
+
+def Withdraw_money_from_the_account():
+    pass
+
+
+def Withdraw_balance():
+    pass
