@@ -1,0 +1,38 @@
+{
+    "1": {
+        "name": "4_file_2.txt",
+        "parent": "3_папка_1",
+        "type": "file",
+        "size": "1 b"
+    },
+    "2": {
+        "name": ".DS_Store",
+        "parent": "2_папка_2",
+        "type": "file",
+        "size": "6148 b"
+    },
+    "3": {
+        "name": "3_file_3.txt",
+        "parent": "2_папка_2",
+        "type": "file",
+        "size": "0 b"
+    },
+    "4": {
+        "name": "__init__.py",
+        "parent": "D_Z",
+        "type": "file",
+        "size": "0 b"
+    },
+    "5": {
+        "name": "README.md",
+        "parent": "D_Z",
+        "type": "file",
+        "size": "1168 b"
+    },
+    "6": {
+        "name": "task_001.py",
+        "parent": "D_Z",
+        "type": "file",
+        "size": "3612 b"
+    }
+}

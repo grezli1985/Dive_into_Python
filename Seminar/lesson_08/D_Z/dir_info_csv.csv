@@ -1,0 +1,7 @@
+"id","name","parent","type","size"
+1,"4_file_2.txt","3_папка_1","file","1 b"
+2,".DS_Store","2_папка_2","file","6148 b"
+3,"3_file_3.txt","2_папка_2","file","0 b"
+4,"__init__.py","D_Z","file","0 b"
+5,"README.md","D_Z","file","1168 b"
+6,"task_001.py","D_Z","file","3612 b"
