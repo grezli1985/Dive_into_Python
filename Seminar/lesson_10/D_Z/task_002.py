@@ -32,6 +32,12 @@ class Triangle:
         self.b = side_b
         self.c = side_c
 
+    def __str__(self):
+        return f'Треугольник со сторонами: {self.a}, {self.b}, {self.c}'
+
+    def __repr__(self):
+        return f'Triangle({self.a}, {self.b}, {self.c})'
+
     @staticmethod
     def triangle_check(side_a, side_b, side_c):
         if side_a <= side_b + side_c and side_b <= side_a + side_c and side_c <= side_a + side_b:
@@ -51,4 +57,5 @@ b = int(input('Введите side_b: '))
 c = int(input('Введите side_c: '))
 
 triangle = Triangle(a, b, c)
+print(f'{triangle}')
 print(triangle.triangle_check(a, b, c))

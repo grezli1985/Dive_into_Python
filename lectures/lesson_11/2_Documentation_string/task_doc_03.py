@@ -1,0 +1,20 @@
+"""Задание
+Перед вами несколько строк кода. Напишите что выведет программа, не запуская
+код. У вас 3 минуты."""
+
+
+class MyClass:
+    A = 42
+    """About class"""
+
+    def __init__(self, a, b):
+        """self.__doc__ = None"""
+        self.a = a
+        self.b = b
+
+    def method(self):
+        """Documentation"""
+        self.__doc__ = None
+
+
+help(MyClass)

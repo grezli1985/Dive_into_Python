@@ -18,6 +18,9 @@ class AnimalsCreator(Dog, Bird, Fish, Animal):
     @staticmethod
     def create_fish(name: str, breed: str, count_fins: int):
         return Fish(name, breed, count_fins)
+    #
+    # def __repr__(self):
+    #     return f'AnimalsCreator({self.name}, {self.breed}, {self.count_fins})'
 
 
 if __name__ == '__main__':
