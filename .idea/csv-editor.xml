@@ -38,6 +38,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/Seminar/lesson_12/D_Z/lessons.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/lectures/lesson_8/2_CSV_format/biostats.csv">
           <value>
             <Attribute>
