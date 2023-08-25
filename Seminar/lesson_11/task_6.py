@@ -19,7 +19,7 @@ class Square:
 
     def perimetr(self):
         """Метода, возвращающие периметр"""
-        return 2*(self.length * self.width)
+        return 2*(self.length + self.width)
 
     def __add__(self, other):
         new_length = self.length + other.length

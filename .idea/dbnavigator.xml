@@ -29,9 +29,6 @@
   <component name="DBNavigator.Project.ExecutionManager">
     <retain-sticky-names value="false" />
   </component>
-  <component name="DBNavigator.Project.FileConnectionMappingManager">
-    <mapping file-url="file://$PROJECT_DIR$/lectures/lesson_12/3_Create_a_context_manager_with" connection-id="9dafaf70-3b58-44ba-8b46-9bd64709ceca" session-id="MAIN" current-schema="mysql" />
-  </component>
   <component name="DBNavigator.Project.ObjectQuickFilterManager">
     <last-used-operator value="EQUAL" />
     <filters />
